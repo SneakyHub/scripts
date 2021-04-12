@@ -37,12 +37,6 @@ sleep 3
 sudo echo "Restarting Wings!"
 sudo systemctl restart wings
 
-# Send webhook completion message
-sudo echo "Changing to Dendency Directory!"
-cd /home/sneaky-scripts/dependencies/discord.sh-1.5
-sudo ./discord.sh --webhook-url=WEBHOOKURL --text "EXAMPLE TEXT"
-sudo echo "Discord Webhook Message Sent!"
-
 # Finish Message
 echo "==================================================="
 echo ""
