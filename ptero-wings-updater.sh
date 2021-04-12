@@ -14,7 +14,7 @@ sudo echo "      DO CTRL + C TO CANCEL IF RAN BY MISTAKE!!"
 sudo echo ""
 sudo echo "==================================================="
 
-sleep 3
+sleep 30
 
 # Base Directory
 sudo echo "Moving to Base Directory to start Update Process."
