@@ -73,12 +73,6 @@ sleep 3
 sudo echo "Exiting Maintenance Mode!"
 sudo php artisan up
 
-# Send webhook completion message
-sudo echo "Changing to Dendency Directory!"
-cd /home/sneaky-scripts/dependencies/discord.sh-1.5
-sudo ./discord.sh --webhook-url=WEBHOOKURL --text "example text"
-sudo echo "Discord Webhook Message Sent!"
-
 
 # Finish Message
 sudo echo "==================================================="
